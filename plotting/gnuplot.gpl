@@ -1,0 +1,210 @@
+
+#!/usr/bin/env gnuplot
+
+#set terminal png medium size 640,480
+set terminal postscript eps color  enhanced 
+#pierwsza kolumna w pliku to x, a druga to y
+set termoption enhanced
+save_encoding = GPVAL_ENCODING
+set encoding iso_8859_2
+set macro
+
+
+# % ± \261 % ¡ \241 % æ \346 % Æ \306 
+# % ê \352 % Ê \312 % ³ \263 % £ \243 
+# % ñ \361 % Ñ \321 % ó \363 % Ó \323 
+# % ¶ \266 % ¦ \246 % ¿ \277 % ¯ \257
+# % ¼ \274 % ¬ \254
+
+blueDotStyle='ps 0.65 pt 7 lc rgb "blue"'
+blueDotStyleSmall='ps 0.5 pt 7 lc rgb "blue"'
+greenDotStyleSmall='ps 0.5 pt 7 lc rgb "green"'
+
+blueDotStyleMedium='ps 0.57 pt 7 lc rgb "blue"'
+greenDotStyleMedium='ps 0.57 pt 7 lc rgb "red"'
+
+#errror
+
+set out "../pdf/res/error.eps"
+set title "Zale¿no¶æ warto¶ci b³êdu od liczby iteracji"
+set xlabel "Iteracja"
+set ylabel "Warto¶æ b³êdu"
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "error.dat" @blueDotStyleSmall title ""
+
+f(x) = x
+
+set out "../pdf/res/valence.eps"
+set title "Zale\277no\266\346 oczekiwnej odpowiedzi od odpowiedzi sieci neuronowej dla zadowolenia"
+set xlabel "zadowolenie - odpowied\274 sieci neuronowej"
+set ylabel "zadowolenie - oczekiwana odpowied\274"
+set xrange [-1:1]
+set yrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "valence.dat" pt 7 ps 0.65 lc rgb "blue" title "zadowolenie", f(x) lc rgb "red" title "y=x"
+
+
+set out "../pdf/res/arousal.eps"
+set title "Zale\277no\266\346 oczekiwnej odpowiedzi od odpowiedzi sieci neuronowej dla pobudzenia"
+set xlabel "pobudzenie - odpowied\274 sieci neuronowej"
+set ylabel "pubudzenie - oczekiwana odpowied\274"
+set xrange [-1:1]
+set yrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "arousal.dat" @blueDotStyle title "pobudzenie", f(x) lc rgb "red" title "y=x"
+
+
+arousalOutput=1
+arousalTarget=2
+valenceOutput=3
+valenceTarget=4
+dissonance=5 
+onset=6 
+scale=7 
+centroid=8
+complexity=9
+flatness=10
+kurtosis=11
+rollOff=12
+skewness=13
+spread=14
+crossRate=15
+
+
+currentFeature=dissonance
+ 
+set out "../pdf/res/dissonance.eps"
+set title "Zale¿no¶æ dysonansu od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "dysonansu"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie" 
+
+currentFeature=onset
+ 
+set out "../pdf/res/onset.eps"
+set title "Zale¿no¶æ wska¼nika zmian od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "wska¼nik zmian"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie"
+
+
+
+currentFeature=centroid
+ 
+set out "../pdf/res/centroid.eps"
+set title "Zale¿no¶æ ¶rodka masy widma od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "¶rodek masy widma"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie"
+
+
+currentFeature=complexity
+ 
+set out "../pdf/res/complexity.eps"
+set title "Zale¿no¶æ z³o¿ono¶ci spektralnej od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "z³o¿ono¶æ spektralna"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie"
+
+
+currentFeature=flatness
+ 
+set out "../pdf/res/flatness.eps"
+set title "Zale¿no¶æ p³asko¶ci spektralnej od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "p³asko¶æ spektralna"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie"
+
+
+
+currentFeature=kurtosis
+ 
+set out "../pdf/res/kurtosis.eps"
+set title "Zale¿no¶æ kurtozy widma od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "kurtoza widma"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie"
+
+
+currentFeature=rollOff
+ 
+set out "../pdf/res/rollOff.eps"
+set title "Zale¿no¶æ spektralnego roll offu od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "spektralny roll off"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie" 
+
+
+currentFeature=skewness
+ 
+set out "../pdf/res/skewness.eps"
+set title "Zale¿no¶æ sko¶no¶ci widma od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "sko¶no¶æ widma"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie"
+
+
+currentFeature=spread
+ 
+set out "../pdf/res/spread.eps"
+set title "Zale¿no¶æ rozrzutu spektralnego od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "rozrzut spektralny"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie"
+
+
+
+currentFeature=crossRate
+ 
+set out "../pdf/res/crossRate.eps"
+set title "Zale¿no¶æ wska¼nika zmiany znaku od subiektywnej oceny zadowolenia oraz pobudzenia"
+set xlabel "zadowolenie/pobudzenie"
+set ylabel "wska¼nik zmiany znaku"
+set autoscale y
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleMedium title "zadowolenie", "data.dat" using arousalOutput:currentFeature @greenDotStyleMedium title "pobudzenie"
+
+
+
+

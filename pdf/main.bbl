@@ -1,0 +1,136 @@
+\begin{thebibliography}{10}
+
+\bibitem{stateOfArt}
+Youngmoo~E Kim, Erik~M Schmidt, Raymond Migneco, Brandon~G Morton, Patrick
+  Richardson, Jeffrey Scott, Jacquelin~A Speck, and Douglas Turnbull.
+\newblock Music emotion recognition: A state of the art review.
+\newblock In {\em Proc. ISMIR}, pages 255--266. Citeseer, 2010.
+
+\bibitem{musicANN1}
+Naresh~N Vempala and Frank~A Russo.
+\newblock Predicting emotion from music audio features using neural networks.
+\newblock In {\em Proceedings of the 9th International Symposium on Computer
+  Music Modeling and Retrieval (CMMR)}. Lecture Notes in Computer Science
+  London, UK, 2012.
+
+\bibitem{musicANN2}
+Eduardo Coutinho and Angelo Cangelosi.
+\newblock A neural network model for the prediction of musical emotions.
+\newblock {\em Advances in cognitive systems}, pages 331--368, 2010.
+
+\bibitem{musicANN3}
+Mudiana~Binti Mokhsin, Nurlaila~Binti Rosli, Wan Adilah~Wan Adnan, and
+  Norehan~Abdul Manaf.
+\newblock Automatic music emotion classification using artificial neural
+  network based on vocal and instrumental sound timbres.
+\newblock {\em New Trends in Software Methodologies, Tools and Techniques:
+  Proceedings of the Thirteenth SoMeT\_14}, 265:3, 2014.
+
+\bibitem{musicLyrics}
+Ricardo Malheiro, Renato Panda, Paulo Gomes, and R~Paiva.
+\newblock Music emotion recognition from lyrics: A comparative study.
+\newblock 6th International Workshop on Machine Learning and Music (MML13).
+  Held in Conjunction with the European Conference on Machine Learning and
+  Principles and Practice of Knowledge Discovery in Databases (ECMLPPKDD13),
+  2013.
+
+\bibitem{tadeusiewicz}
+Ryszard Tadeusiewicz.
+\newblock {\em Sieci Neuronowe}.
+\newblock Akademicka Oficyna Wydawnicza, Warszawa, 1993.
+
+\bibitem{leksykon}
+Maciej~Szaleniec Ryszard~Tadeusiewicz.
+\newblock {\em Leksykon Sieci Neuronowych}.
+\newblock Wydawnictwo Fundacji "Projekt Nauka", Wrocław, 2015.
+
+\bibitem{briefIntroduction}
+David Kriesel.
+\newblock A brief introduction to neural networks.
+\newblock {\em Retrieved August}, 15:2011, 2007.
+
+\bibitem{phdWork}
+Cyril Laurier.
+\newblock {\em Automatic Classification of Musical Mood by Content Based
+  Analysis}.
+\newblock Universitat Pompeu Fabra, 2011.
+
+\bibitem{signalProcessing}
+Sophocles~J Orfanidis.
+\newblock Introduction to signal processing.
+\newblock
+  \url{http://www.ece.rutgers.edu/~orfanidi/intro2sp/orfanidis-i2sp.pdf}, 1995.
+\newblock Dostęp:29.12.2015.
+
+\bibitem{audacity}
+Audacity - free open source digital audio editor and recording computer
+  software application.
+\newblock \url{http://audacity.pl/}.
+
+\bibitem{windowingNI}
+National Instruments~White Papers.
+\newblock Understanding ffts and windowing.
+\newblock \url{http://www.ni.com/white-paper/4844/en/}.
+\newblock Dostęp:29.12.2015.
+
+\bibitem{izofona}
+Słownik Języka~Polskiego PWN.
+\newblock Hasło izofona.
+\newblock \url{http://encyklopedia.pwn.pl/haslo/;3915950}.
+\newblock Dostęp:29.12.2015.
+
+\bibitem{izofonyModel}
+Full revision of international standards for equal-loudness level contours
+  ({ISO} 226).
+\newblock
+  \url{http://www.aist.go.jp/aist_e/latest_research/2003/20031114/20031114.html}.
+\newblock Dostęp:29.12.2015.
+
+\bibitem{obwiednia}
+Janusz Słupik.
+\newblock Dźwięk cyfrowy.
+\newblock
+  \url{http://www.aist.go.jp/aist_e/latest_research/2003/20031114/20031114.html}.
+\newblock Dostęp:02.01.2016.
+
+\bibitem{rollOff}
+George Tzanetakis and Perry Cook.
+\newblock Musical genre classification of audio signals.
+\newblock {\em Speech and Audio Processing, IEEE transactions on},
+  10(5):293--302, 2002.
+
+\bibitem{skala}
+Janusz Jusiak.
+\newblock Podstawowe pojęcia muzyczne.
+\newblock
+  \url{http://bacon.umcs.lublin.pl/~jjusiak/dokumenty/konwersatoria/PodstawowePoj%C4%99ciaWMuzyce.pdf}.
+\newblock Dostęp:01.01.2016.
+
+\bibitem{hpcp}
+Emilia G{\'o}mez~Guti{\'e}rrez et~al.
+\newblock Tonal description of music audio signals.
+\newblock 2006.
+
+\bibitem{emotion}
+Jonathan Posner, James~A Russell, and Bradley~S Peterson.
+\newblock The circumplex model of affect: An integrative approach to affective
+  neuroscience, cognitive development, and psychopathology.
+\newblock {\em Development and psychopathology}, 17(03):715--734, 2005.
+
+\bibitem{essentia}
+D.~Bogdanov, Nicolas Wack, Emilia G{\'o}mez, Sankalp Gulati, P.~Herrera,
+  O.~Mayor, Gerard Roma, J.~Salamon, J.~Zapata, and Xavier Serra.
+\newblock Essentia: an audio analysis library for music information retrieval.
+\newblock In {\em International Society for Music Information Retrieval
+  Conference (ISMIR{\textquoteright}13)}, pages 493--498, Curitiba, Brazil,
+  04/11/2013 2013.
+
+\bibitem{dataSet}
+Mohammad Soleymani, Micheal~N. Caro, Erik~M. Schmidt, Cheng-Ya Sha, and
+  Yi-Hsuan Yang.
+\newblock 1000 songs for emotional analysis of music.
+\newblock In {\em Proceedings of the 2Nd ACM International Workshop on
+  Crowdsourcing for Multimedia}, CrowdMM ’13, pages 1--6, New York, NY, USA,
+  2013. ACM.
+
+\end{thebibliography}

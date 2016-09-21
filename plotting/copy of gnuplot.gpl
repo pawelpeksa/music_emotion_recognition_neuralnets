@@ -1,0 +1,332 @@
+
+#!/usr/bin/env gnuplot
+
+#set terminal png medium size 640,480
+set terminal postscript eps color  enhanced 
+#pierwsza kolumna w pliku to x, a druga to y
+set termoption enhanced
+save_encoding = GPVAL_ENCODING
+set encoding iso_8859_2
+set macro
+
+
+# % ą \261 % Ą \241 % ć \346 % Ć \306 
+# % ę \352 % Ę \312 % ł \263 % Ł \243 
+# % ń \361 % Ń \321 % ó \363 % Ó \323 
+# % ś \266 % Ś \246 % ż \277 % Ż \257
+# % ź \274 % Ź \254
+
+blueDotStyle='ps 0.65 pt 7 lc rgb "blue"'
+blueDotStyleSmall='ps 0.5 pt 7 lc rgb "blue"'
+
+#errror
+
+set out "../pdf/res/error.eps"
+set title "Zależność wartości błędu od iteracji"
+set xlabel "Iteracja"
+set ylabel "Wartość błędu"
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "error.dat" @blueDotStyleSmall title ""
+
+f(x) = x
+
+set out "../pdf/res/valence.eps"
+set title "Zale\277no\266\346 oczekiwnej odpowiedzi od odpowiedzi sieci neuronowej dla zadowolenia"
+set xlabel "zadowolenie - odpowied\274 sieci neuronowej"
+set ylabel "zadowolenie - oczekiwana odpowied\274"
+set xrange [-1:1]
+set yrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "valence.dat" pt 7 ps 0.65 lc rgb "blue" title "zadowolenie", f(x) lc rgb "red" title "y=x"
+
+
+set out "../pdf/res/arousal.eps"
+set title "Zale\277no\266\346 oczekiwnej odpowiedzi od odpowiedzi sieci neuronowej dla pobudzenia"
+set xlabel "pobudzenie - odpowied\274 sieci neuronowej"
+set ylabel "pubudzenie - oczekiwana odpowied\274"
+set xrange [-1:1]
+set yrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "arousal.dat" @blueDotStyle title "pobudzenie", f(x) lc rgb "red" title "y=x"
+
+
+arousalOutput=1
+arousalTarget=2
+valenceOutput=3
+valenceTarget=4
+dissonance=5 
+onset=6 
+scale=7 
+centroid=8
+complexity=9
+flatness=10
+kurtosis=11
+rollOff=12
+skewness=13
+spread=14
+crossRate=15
+
+
+currentFeature=dissonance
+ 
+set out "plots/valenceDissonance.eps"
+set title "Zale\277no\266\346 zadowolenia od dyzonansu (dissonance)"
+set xlabel "zadowolenie"
+set ylabel "dyzonans (dissonance)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalDissonance.eps"
+set title "Zale\277no\266\346 pobudzenie od dyzonansu (dissonance)"
+set xlabel "pobudzenie"
+set ylabel "dyzonans (dissonance)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+currentFeature=onset
+ 
+set out "plots/valenceOnset.eps"
+set title "Zale\277no\266\346 zadowolenia od wskaźnika zmian (onset rate)"
+set xlabel "zadowolenie"
+set ylabel "wskaźnik zmian (onset rate)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalOnset.eps"
+set title "Zale\277no\266\346 pobudzenie od wskaźnika zmian (onset rate)"
+set xlabel "pobudzenie"
+set ylabel "wskaźnik zmian (onset rate)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+
+currentFeature=scale
+ 
+set out "plots/valenceScale.eps"
+set title "Zale\277no\266\346 zadowolenia od skali"
+set xlabel "zadowolenie"
+set ylabel "skala"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalScale.eps"
+set title "Zale\277no\266\346 pobudzenia od skali"
+set xlabel "pobudzenie"
+set ylabel "skala"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+
+currentFeature=centroid
+ 
+set out "plots/valenceCentroid.eps"
+set title "Zale\277no\266\346 zadowolenia od środka masy widma(spectral centroid)"
+set xlabel "zadowolenie"
+set ylabel "środek masy widma (spectral centroid)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalCentroid.eps"
+set title "Zale\277no\266\346 pobudzenie od środka masy widma (spectral centroid)"
+set xlabel "pobudzenie"
+set ylabel "środek masy widma (spectral centroid)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+currentFeature=complexity
+ 
+set out "plots/valenceComplexity.eps"
+set title "Zale\277no\266\346 zadowolenia od złożoności spektralnej(spectral complexity)"
+set xlabel "zadowolenie"
+set ylabel "złożoność spektralna(spectral complexity)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalComplexity.eps"
+set title "Zale\277no\266\346 pobudzenie od złożoności spektralnej(spectral complexity)"
+set xlabel "pobudzenie"
+set ylabel "złożoność spektralna(spectral complexity)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+
+
+currentFeature=flatness
+ 
+set out "plots/valenceFlatness.eps"
+set title "Zale\277no\266\346 zadowolenia od płaskości spektralnej(spectral flatness)"
+set xlabel "zadowolenie"
+set ylabel "płaskość spektralna (spectral flatness)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalFlatness.eps"
+set title "Zale\277no\266\346 pobudzenie od płaskości spektralnej(spectral flatness)"
+set xlabel "pobudzenie"
+set ylabel "płaskość spektralna(spectral flatness)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+
+
+currentFeature=kurtosis
+ 
+set out "plots/valenceKurtosis.eps"
+set title "Zale\277no\266\346 zadowolenia od kurtozy widma(spectral kurtosis)"
+set xlabel "zadowolenie"
+set ylabel "kurtoza widma(spectral kurtosis)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalKurtosis.eps"
+set title "Zale\277no\266\346 pobudzenie od kurtozy widma"
+set xlabel "pobudzenie"
+set ylabel "kurtoza widma(spectral kurtosis)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+
+
+currentFeature=rollOff
+ 
+set out "plots/valenceRollOff.eps"
+set title "Zale\277no\266\346 zadowolenia od spektralnego roll offu"
+set xlabel "zadowolenie"
+set ylabel "spektralny roll off"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalRollOff.eps"
+set title "Zale\277no\266\346 pobudzenia od spektralnego roll offu"
+set xlabel "pobudzenie"
+set ylabel "spektralny roll off"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+currentFeature=skewness
+ 
+set out "plots/valenceSkewness.eps"
+set title "Zale\277no\266\346 zadowolenia od skośności widma(spectral skewness)"
+set xlabel "zadowolenie"
+set ylabel "skośnoś widma(spectral skewness)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalSkewness.eps"
+set title "Zale\277no\266\346 pobudzenia od skośności widma(spectral skewness)"
+set xlabel "pobudzenie"
+set ylabel "skośnoś widma(spectral skewness)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+currentFeature=spread
+ 
+set out "plots/valenceSpread.eps"
+set title "Zale\277no\266\346 zadowolenia od rozrzutu spektralnego(spectral spread)"
+set xlabel "zadowolenie"
+set ylabel "rozrzut spektralny(spectral spread)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalSpread.eps"
+set title "Zale\277no\266\346 pobudzenie od rozrzutu spektralnego(spectral spread)"
+set xlabel "pobudzenie"
+set ylabel "rozrzut spektralny(spectral spread)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 
+
+
+
+currentFeature=crossRate
+ 
+set out "plots/valenceCrossRate.eps"
+set title "Zale\277no\266\346 zadowolenia od wskaźnika zmiany znak(zero crossing rate)"
+set xlabel "zadowolenie"
+set ylabel "wskaźnik zmiany znaku(zero crossing rate)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using valenceOutput:currentFeature @blueDotStyleSmall 
+
+set out "plots/arousalCrossRate.eps"
+set title "Zale\277no\266\346 pobudzenia od wskaźnika zmiany znak(zero crossing rate)"
+set xlabel "pobudzenie"
+set ylabel "wskaźnik zmiany znaku(zero crossing rate)"
+set yrange [-2:2]
+set xrange [-1:1]
+set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
+set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
+plot "data.dat" using arousalOutput:currentFeature @blueDotStyleSmall 

@@ -1,0 +1,13 @@
+*.pyc
+.~*
+*.log
+outputs/*.log
+outputs/*.obj*
+outputs/*.txt
+pdf/build/*.aux
+pdf/build/*.gz
+pdf/build/*.toc
+pdf/*.dvi
+*.mp3
+resources/clips/*
+*.swp

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg1175" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" sodipodi:docname="FletcherMunson ELC.svg" sodipodi:version="0.32" height="408.69pt" width="571.28pt" version="1.0" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" sodipodi:docbase="/home/alejo" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd">
+ <defs id="defs1177">
+  <marker id="TriangleOutL" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path4290" d="m5.77 0l-8.65 5v-10l8.65 5z" fill-rule="evenodd" sodipodi:nodetypes="cccc" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <sodipodi:namedview id="base" bordercolor="#666666" pagecolor="#ffffff" borderopacity="1.0"/>
+ <metadata id="metadata1178">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect id="rect1185" height="447.1" width="643.9" stroke="#000" y="16.923" x="52.269" stroke-width="1.1129" fill="none"/>
+ <path id="path1669" d="m81.844 16.457v445.47" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1670" d="m232.26 15.484v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1671" d="m436.75 17.43v445.48" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1672" d="m640.39 17.43v445.48" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1673" d="m52.269 135.4h643.05" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <path id="path1674" d="m52.269 195.39h644.74" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <path id="path1675" d="m52.269 254.54h643.05" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <path id="path1676" d="m52.269 314.54h643.89" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <path id="path1677" d="m52.266 373.69h643.47" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <path id="path1678" d="m53.114 433.68h641.36" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <path id="path1679" d="m168.88 16.457v446.45" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1680" d="m372.53 16.457v447.42" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1681" d="m577.02 16.457v446.45" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1682" d="m122.18 16.509v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1683" d="m149.24 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1684" d="m185.68 15.622v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1685" d="m198.35 15.622v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1686" d="m212.82 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1687" d="m287.18 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1688" d="m326.9 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1689" d="m353.29 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1690" d="m389.83 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1691" d="m403.35 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1692" d="m416.87 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1693" d="m427.11 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1694" d="m491.43 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1695" d="m531.25 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1696" d="m557.55 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1697" d="m593.98 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1698" d="m607.5 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1699" d="m620.18 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1700" d="m630.42 16.595v448.4" stroke="#000" stroke-width="1.1133" fill="none"/>
+ <path id="path1807" d="m99.589 88.921c73.221 5.324 145.89 9.688 218 1.696 55.55 0.032 110.67 9.963 164.57 22.683 26.3 7.39 52.64 15.69 79.96 17.69 21.85 1.01 31.25-25.88 50.83-30.98 18.4-7.34 37.08-7.873 54.83-18.032 4-1.802 10.88-6.762 14.02-9.957" sodipodi:nodetypes="ccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path4292" d="m98.744 133.71c53.346-0.45 109.17 2.32 162.41-0.11 15.58 0.6 66.54-4.95 137.78-4.61 21.39-0.42 84.95 14.03 125.99 26.53 19.07 6.24 50.06 2.06 58.14-6.11 7.63-7.11 26.41-31.74 47.93-32.93 17.77 1.94 30.99-6.91 43.14-16.489" sodipodi:nodetypes="ccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path4914" d="m104.66 150.9c35.58 8.28 133.22 14.39 200.03 13.12 32.4 0.82 64.77-2.96 97.1-1.7 39.57 1.94 78.45 9.92 117.06 18.13 20.45 4.64 41.41 5.24 59.01-7.03 18.59-6.71 23.78-24.38 42.76-29.8 17.9-7.97 43.31-2.35 60.04-15.87" sodipodi:nodetypes="ccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path5536" d="m107.4 165.26c49.69 13.05 160.1 27.11 216.95 28.21 35.01 2.88 70.09-4.52 104.94 1.2 40.14 3.05 79.05 14.48 119.1 17.83 16.75-2.78 37.31-7.36 48.29-21.05 8.51-21.89 31.6-27.36 52.12-30.56 13.72-3.67 22.17-13.65 33-22.11" sodipodi:nodetypes="ccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path6209" d="m107.05 175.69c50.71 10.4 110.86 24.17 166.97 34.74 42.46 6.57 85.23 13.32 128.28 12.55 47.68 2.59 118.52 17.38 141.48 20.49 17.8-2.02 40.23-8.65 52.32-22.71 9.29-19.92 30.06-28.06 50.54-28.75 15-5.68 26.69-17.72 36-30.42" sodipodi:nodetypes="ccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path6848" d="m106.2 181.05c74.35 17.65 185.57 63.82 282.68 71.04 25.79 1.48 52.03 0.67 77.46 4.86 27.78 6.45 55.73 14.91 84.42 15.1 16.21-5.91 37.89-9.04 46.81-25.24 8.74-19.93 31.1-22.34 47.94-25.18 9.84-2.15 24.43-23.48 37.13-34.69" sodipodi:nodetypes="ccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path7472" d="m108.31 186.15c29.15 9.27 89.77 38.11 132.86 57.45 31.93 10.71 102.55 39.72 158.93 40.04 19.84-0.37 39.55 0.21 58.9 5.23 30.32 5.36 60.62 11.95 91.47 13.2 17.68-4.35 39.99-7.03 48.3-25.88 10.69-23.45 38.31-18.35 56.14-30.62 10.18-7.56 18.54-17.17 27.61-25.96" sodipodi:nodetypes="cccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path8094" d="m107.71 191.53c36.37 13.42 103.93 57.72 137.82 70.39 32.26 14.6 91.1 44.53 141.23 50.41 41.96-0.29 83.53 6.09 124.31 15.45 19.72 2.29 40.23 8.63 60.31 2.97 19.94-5.55 26.93-32.34 45.13-41.06 21.03-6.43 43.34-10.5 59.1-28.07 3.42-3.12 6.79-6.41 9.3-10.34" sodipodi:nodetypes="cccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path8716" d="m107.12 197.5c28.99 17.16 90.24 57.66 132.71 82.7 48.19 25.93 94.46 50.23 148.44 62.39 19.4 3.22 38.71-3.89 57.87 3.07 33.57 5.62 66.91 12.97 100.74 16.76 18.98-3.95 41.11-8.84 51.44-26.51 10.15-19.83 31.91-22.06 50.89-25.49 12.55-5.51 23.6-14.38 32.11-25.08" sodipodi:nodetypes="cccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path9338" d="m109.51 208.86c23.07 15.05 215.19 144.16 268.97 162.25 26.94 2.65 54.34 0.94 81.09 6.29 30.73 4.45 60.77 15.14 91.89 15.7 17.07-7.18 38.39-11.39 47.53-28.49 10.52-19.33 32.75-20.31 50.99-25.67 11.45-5.9 22.2-13.44 31.34-22.53" sodipodi:nodetypes="ccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path9960" d="m107.12 220.81c23.11 15.4 161.5 115.07 199.54 136.99 31.73 18.38 64.79 38.29 102.12 41.47 19.17 5.86 39.78 4.19 59.23 9.42 29.55 5.71 59.37 19.3 89.72 17.21 27.46-2.7 31.56-29.34 52.71-41.38 29.84-5.34 64.6-28.74 69.69-45.41" sodipodi:nodetypes="ccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <path id="path1029" d="m109.52 239.15c38.27 25.71 100.39 73.47 146.32 106.58 40.35 28.39 84.44 55.54 128.88 77.38 20.46 6.93 50.22 11.77 64.41 10.82 37.47 6.59 72.9 24.59 111.22 20.73 31.94-3.24 39.81-34.73 48.55-36.96 8.85-8.15 27.33-8.94 40.21-19.55 10.29-10.88 23.49-18.56 31.84-32.91" sodipodi:nodetypes="cccccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <text id="text3706" xml:space="preserve" font-size="16.602px" line-height="100%" y="437.57416" x="32.96048" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3707" sodipodi:role="line" x="32.96048" y="437.57416">0</tspan></text>
+ <text id="text3709" xml:space="preserve" font-size="16.602px" line-height="100%" y="378.98682" x="24.921114" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3710" sodipodi:role="line" x="24.921114" y="378.98682">20</tspan></text>
+ <text id="text3712" xml:space="preserve" font-size="16.602px" line-height="100%" y="320.8782" x="25.379694" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3713" sodipodi:role="line" x="25.379694" y="320.8782">40</tspan></text>
+ <text id="text3715" xml:space="preserve" font-size="16.602px" line-height="100%" y="261.1911" x="25.966761" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3716" sodipodi:role="line" x="25.966761" y="261.1911">60</tspan></text>
+ <text id="text3718" xml:space="preserve" font-size="16.602px" line-height="100%" y="203.08247" x="26.425341" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3719" sodipodi:role="line" x="26.425341" y="203.08247">80</tspan></text>
+ <text id="text3721" xml:space="preserve" font-size="16.602px" line-height="100%" y="139.75569" x="18.185102" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3722" sodipodi:role="line" x="18.185102" y="139.75569">100</tspan></text>
+ <text id="text3727" xml:space="preserve" font-size="16.602px" line-height="100%" y="484.71506" x="73.948822" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3728" sodipodi:role="line" x="73.948822" y="484.71506">20</tspan></text>
+ <text id="text3730" xml:space="preserve" font-size="16.602px" line-height="100%" y="484.71506" x="219.67471" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3731" sodipodi:role="line" x="219.67471" y="484.71506">100</tspan></text>
+ <text id="text3733" xml:space="preserve" font-size="16.602px" line-height="100%" y="484.71506" x="418.73965" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3734" sodipodi:role="line" x="418.73965" y="484.71506">1000</tspan></text>
+ <text id="text3736" xml:space="preserve" font-size="16.602px" line-height="100%" y="484.71506" x="618.53503" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3737" sodipodi:role="line" x="618.53503" y="484.71506">10000</tspan></text>
+ <text id="text1098" xml:space="preserve" font-size="16.602px" line-height="100%" y="430.38882" x="449.50452" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1099" sodipodi:role="line" x="449.50452" y="430.38882">0</tspan></text>
+ <text id="text1101" xml:space="preserve" font-size="16.602px" line-height="100%" y="401.90948" x="444.7529" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1102" sodipodi:role="line" x="444.7529" y="401.90948">10</tspan></text>
+ <text id="text1104" xml:space="preserve" font-size="16.602px" line-height="100%" y="369.77176" x="444.90924" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1105" sodipodi:role="line" x="444.90924" y="369.77176">20</tspan></text>
+ <text id="text1107" xml:space="preserve" font-size="16.602px" line-height="100%" y="340.15186" x="444.90924" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1108" sodipodi:role="line" x="444.90924" y="340.15186">30</tspan></text>
+ <text id="text1110" xml:space="preserve" font-size="16.602px" line-height="100%" y="309.90244" x="444.90924" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1111" sodipodi:role="line" x="444.90924" y="309.90244">40</tspan></text>
+ <text id="text1113" xml:space="preserve" font-size="16.602px" line-height="100%" y="283.23813" x="444.90924" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1114" sodipodi:role="line" x="444.90924" y="283.23813">50</tspan></text>
+ <text id="text1116" xml:space="preserve" font-size="16.602px" line-height="100%" y="250.59872" x="444.90924" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1117" sodipodi:role="line" x="444.90924" y="250.59872">60</tspan></text>
+ <text id="text1119" xml:space="preserve" font-size="16.602px" line-height="100%" y="223.93439" x="444.90924" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1120" sodipodi:role="line" x="444.90924" y="223.93439">70</tspan></text>
+ <text id="text1122" xml:space="preserve" font-size="16.602px" line-height="100%" y="191.92441" x="444.90924" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1123" sodipodi:role="line" x="444.90924" y="191.92441">80</tspan></text>
+ <text id="text1125" xml:space="preserve" font-size="16.602px" line-height="100%" y="162.87006" x="444.90924" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1126" sodipodi:role="line" x="444.90924" y="162.87006">90</tspan></text>
+ <text id="text1128" xml:space="preserve" font-size="16.602px" line-height="100%" y="132.05511" x="438.93408" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1129" sodipodi:role="line" x="438.93408" y="132.05511">100</tspan></text>
+ <text id="text1131" xml:space="preserve" font-size="16.602px" line-height="100%" y="98.850136" x="438.93408" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1132" sodipodi:role="line" x="438.93408" y="98.850136">110</tspan></text>
+ <path id="path3623" marker-end="url(#TriangleOutL)" d="m238.6 393.14l23.9-35.85" sodipodi:nodetypes="cc" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <rect id="rect5635" fill-rule="evenodd" fill-opacity=".75" height="25.095" width="198.85" y="391.42" x="113.09" fill="#fff"/>
+ <path id="path6308" d="m52.269 16.789h643.05" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <path id="path6309" d="m52.269 74.898h643.05" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <text id="text6949" xml:space="preserve" font-size="16.602px" line-height="100%" y="79.186363" x="18.185102" font-family="times new roman" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan6950" sodipodi:role="line" x="18.185102" y="79.186363">120</tspan></text>
+ <path id="path6952" d="m102.97 43.19c79.43 18.59 261.95 10.985 333.78 30.42 77.74 16.056 81.12 32.96 119.99 32.96 17.74 0 38.02-31.27 63.37-32.115 11.83 0 53.24-16.055 60.84-30.42" sodipodi:nodetypes="ccccc" stroke="#f00" stroke-width="1.6602pt" fill="none"/>
+ <text id="text6953" xml:space="preserve" font-size="16.602px" line-height="100%" y="69.795776" x="438.93408" font-family="times new roman" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan6954" sodipodi:role="line" x="438.93408" y="69.795776">120</tspan></text>
+ <rect id="rect7646" fill-rule="evenodd" fill-opacity=".75" height="25.095" width="162.52" y="22.01" x="494.95" fill="#fff"/>
+ <path id="path7650" marker-end="url(#TriangleOutL)" d="m566.5 41.846l23.9 35.851" sodipodi:nodetypes="cc" stroke="#000" stroke-width="1.0377" fill="none"/>
+ <switch font-size="16.602px" font-family="times new roman">
+  <g systemLanguage="it">
+   <text id="text3703" line-height="100%" xml:space="preserve" transform="rotate(-90)" sodipodi:linespacing="100%" y="19.066488" x="-289.87558" fill="#000000"><tspan id="tspan3704" sodipodi:role="line" x="-289.87558" y="19.066488">Intensità (dB)</tspan></text>
+   <text id="text1134" xml:space="preserve" line-height="100%" y="408.14603" x="116.67577" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1135" sodipodi:role="line" x="116.67577" y="408.14603">Soglia di udibilità</tspan></text>
+   <text id="text7647" xml:space="preserve" line-height="100%" y="38.740582" x="498.53305" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan7648" sodipodi:role="line" x="498.53305" y="38.740582">Soglia del dolore</tspan></text>
+   <text id="text3724" xml:space="preserve" line-height="100%" y="501.60358" x="318.81628" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3725" sodipodi:role="line" x="318.81628" y="501.60358">Frequenza (Hz)</tspan></text>
+  </g>
+  <g systemLanguage="es">
+   <text id="text3703" line-height="100%" xml:space="preserve" transform="rotate(-90)" sodipodi:linespacing="100%" y="19.066488" x="-289.87558" fill="#000000"><tspan id="tspan3704" sodipodi:role="line" x="-289.87558" y="19.066488">Intensidad (dB)</tspan></text>
+   <text id="text1134" xml:space="preserve" line-height="100%" y="408.14603" x="116.67577" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1135" sodipodi:role="line" x="116.67577" y="408.14603">Umbral de audición</tspan></text>
+   <text id="text7647" xml:space="preserve" line-height="100%" y="38.740582" x="498.53305" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan7648" sodipodi:role="line" x="498.53305" y="38.740582">Umbral del dolor</tspan></text>
+   <text id="text3724" xml:space="preserve" line-height="100%" y="501.60358" x="318.81628" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3725" sodipodi:role="line" x="318.81628" y="501.60358">Frecuencia (Hz)</tspan></text>
+  </g>
+  <g systemLanguage="pl">
+   <text id="text3703" line-height="100%" xml:space="preserve" transform="rotate(-90)" sodipodi:linespacing="100%" y="19.066488" x="-289.87558" fill="#000000"><tspan id="tspan3704" sodipodi:role="line" x="-289.87558" y="19.066488">Głośność (dB)</tspan></text>
+   <text id="text1134" xml:space="preserve" line-height="100%" y="408.14603" x="116.67577" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1135" sodipodi:role="line" x="116.67577" y="408.14603">Próg słyszalności</tspan></text>
+   <text id="text7647" xml:space="preserve" line-height="100%" y="38.740582" x="498.53305" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan7648" sodipodi:role="line" x="498.53305" y="38.740582">Próg bólu</tspan></text>
+   <text id="text3724" xml:space="preserve" line-height="100%" y="501.60358" x="318.81628" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3725" sodipodi:role="line" x="318.81628" y="501.60358">Częstotliwość (Hz)</tspan></text>
+  </g>
+  <g>
+   <text id="text3703" line-height="100%" xml:space="preserve" transform="rotate(-90)" sodipodi:linespacing="100%" y="19.066488" x="-289.87558" fill="#000000"><tspan id="tspan3704" sodipodi:role="line" x="-289.87558" y="19.066488">Intensity (dB)</tspan></text>
+   <text id="text1134" xml:space="preserve" line-height="100%" y="408.14603" x="116.67577" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan1135" sodipodi:role="line" x="116.67577" y="408.14603">Threshold of audibility</tspan></text>
+   <text id="text7647" xml:space="preserve" line-height="100%" y="38.740582" x="498.53305" sodipodi:linespacing="100%" fill="#004e90"><tspan id="tspan7648" sodipodi:role="line" x="498.53305" y="38.740582">Threshold of pain</tspan></text>
+   <text id="text3724" xml:space="preserve" line-height="100%" y="501.60358" x="318.81628" sodipodi:linespacing="100%" fill="#000000"><tspan id="tspan3725" sodipodi:role="line" x="318.81628" y="501.60358">Frequency (Hz)</tspan></text>
+  </g>
+ </switch>
+</svg>

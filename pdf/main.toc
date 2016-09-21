@@ -1,0 +1,66 @@
+\select@language {polish}
+\contentsline {section}{\numberline {1}Wprowadzenie}{8}{section.1}
+\contentsline {subsection}{\numberline {1.1}Przedmiot pracy}{8}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Problematyka pracy}{8}{subsection.1.2}
+\contentsline {section}{\numberline {2}Sztuczne sieci neuronowe}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Budowa sieci neuronowej}{9}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Budowa neuronu}{9}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Topologia sieci}{11}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Uczenie sieci neuronowej}{11}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Regu\IeC {\l }a delta}{12}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Algorytm wstecznej propagacji b\IeC {\l }\IeC {\k e}d\IeC {\'o}w}{13}{subsubsection.2.2.2}
+\contentsline {section}{\numberline {3}Ekstrakcja cech d\IeC {\'z}wi\IeC {\k e}kowych}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Cyfrowa reprezentacja sygna\IeC {\l }u audio}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Spektralna reprezentacja sygna\IeC {\l }u audio}{14}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Transformacja Fouriera}{14}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Wst\IeC {\k e}pna obr\IeC {\'o}bka sygna\IeC {\l }u}{15}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Okno czasowe}{15}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Algorytm wyr\IeC {\'o}wnywania poziomu g\IeC {\l }o\IeC {\'s}no\IeC {\'s}ci d\IeC {\'z}wi\IeC {\k e}ku}{15}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}Cechy d\IeC {\'z}wi\IeC {\k e}ku bazuj\IeC {\k a}ce na czasowej reprezentacji d\IeC {\'z}wi\IeC {\k e}ku}{16}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Wska\IeC {\'z}nik zmiany znaku (\emph {Zero Crossing Rate})}{16}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Wska\IeC {\'z}nik zmian (\emph {Onset rate})}{16}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5}Cechy d\IeC {\'z}wi\IeC {\k e}ku bazuj\IeC {\k a}ce na spektralnej reprezentacji d\IeC {\'z}wi\IeC {\k e}ku}{17}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Z\IeC {\l }o\IeC {\.z}ono\IeC {\'s}\IeC {\'c} spektralna (\emph {Spectral complexity})}{17}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Kszta\IeC {\l }t spektralny (\emph {Spectral shape})}{17}{subsubsection.3.5.2}
+\contentsline {paragraph}{Moment centralny}{17}{section*.2}
+\contentsline {paragraph}{\IeC {\'S}rodek masy widma}{17}{section*.3}
+\contentsline {paragraph}{Wsp\IeC {\'o}\IeC {\l }czynnik sko\IeC {\'s}no\IeC {\'s}ci widma}{18}{section*.4}
+\contentsline {paragraph}{Kurtoza widma}{18}{section*.5}
+\contentsline {paragraph}{\emph {Roll-off} widma}{18}{section*.6}
+\contentsline {paragraph}{Rozrzut spektralny}{18}{section*.7}
+\contentsline {subsubsection}{\numberline {3.5.3}P\IeC {\l }asko\IeC {\'s}\IeC {\'c} spektralna \emph {(Spectral flatness)}}{18}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Dysonans (\emph {Dissonance})}{19}{subsubsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.5}Skala}{19}{subsubsection.3.5.5}
+\contentsline {section}{\numberline {4}Matematyczny model emocji}{19}{section.4}
+\contentsline {section}{\numberline {5}Opis stworzonego systemu}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Schemat systemu}{20}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Zastosowane narz\IeC {\k e}dzia}{21}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}J\IeC {\k e}zyk programowania oraz biblioteki programistyczne}{21}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}System operacyjny}{21}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Baza utwor\IeC {\'o}w muzycznych}{22}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Algorytm uczenia maszynowego}{22}{subsubsection.5.2.4}
+\contentsline {subsection}{\numberline {5.3}Opis aplikacji}{22}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Uczenie sieci neuronowej}{23}{subsection.5.4}
+\contentsline {section}{\numberline {6}Uzyskane wyniki}{24}{section.6}
+\contentsline {subsection}{\numberline {6.1}Parametry zadowolenia oraz pobudzenia}{24}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Zale\IeC {\.z}no\IeC {\'s}\IeC {\'c} nastroju od cech d\IeC {\'z}wi\IeC {\k e}kowych}{25}{subsection.6.2}
+\contentsline {paragraph}{Wska\IeC {\'z}nik zmiany znaku}{25}{section*.8}
+\contentsline {paragraph}{Wska\IeC {\'z}nik zmian}{25}{section*.9}
+\contentsline {paragraph}{Z\IeC {\l }o\IeC {\.z}ono\IeC {\'s}\IeC {\'c} spektralna}{28}{section*.10}
+\contentsline {paragraph}{\IeC {\'S}rodek masy widma}{28}{section*.11}
+\contentsline {paragraph}{Wsp\IeC {\'o}\IeC {\l }czynnik sko\IeC {\'s}no\IeC {\'s}ci widma}{28}{section*.12}
+\contentsline {paragraph}{Kurtoza widma}{28}{section*.13}
+\contentsline {paragraph}{Rozrzut spektralny}{30}{section*.14}
+\contentsline {paragraph}{\emph {Roll-off} widma}{30}{section*.15}
+\contentsline {paragraph}{P\IeC {\l }asko\IeC {\'s}\IeC {\'c} spektralna}{30}{section*.16}
+\contentsline {paragraph}{Dysonans}{30}{section*.17}
+\contentsline {paragraph}{Skala}{30}{section*.18}
+\contentsline {paragraph}{Podsumowanie}{33}{section*.19}
+\contentsline {section}{\numberline {7}Wnioski}{33}{section.7}
+\contentsline {subsection}{\numberline {7.1}Ocena dzia\IeC {\l }ania systemu}{33}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Propozycja usprawnienia}{35}{subsection.7.2}
+\contentsline {section}{Literatura}{36}{subsection.7.2}
+\contentsline {section}{Dodatki}{37}{section*.21}
+\contentsline {section}{\numberline {A}Obs\IeC {\l }uga programu}{37}{Dodatek.1.A}
+\contentsline {subsection}{\numberline {A.1}Konfiguracja}{37}{subsection.1.A.1}
+\contentsline {subsection}{\numberline {A.2}Uruchamianie}{38}{subsection.1.A.2}
