@@ -8,6 +8,9 @@ pdf/build/*.aux
 pdf/build/*.gz
 pdf/build/*.toc
 pdf/*.dvi
+pdf/*.tex
+pdf/res/*
 *.mp3
 resources/clips/*
 *.swp
+
