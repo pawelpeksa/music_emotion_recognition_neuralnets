@@ -1,11 +1,10 @@
+# eMusic - Project of neural networks system which recognise emotion of the given audio. #
+
 Bachelor's final project
 
 Topic: "Application of machine learning algorithms in music emotion recognition"
 
 Dissertation available at: https://misio.fis.agh.edu.pl/media/misiofiles/162daeb54191392a9cc3090f8ce28f58.pdf
-
-
-# eMusic - Project of neural networks system which recognise emotion of the given audio. #
 
 **General**
 
